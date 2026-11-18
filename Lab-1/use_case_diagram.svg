@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 690" width="1000" height="690" font-family="Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#333" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<rect x="175" y="40" width="650" height="630" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="500" y="28" text-anchor="middle" font-size="15" font-weight="bold">Household Carbon Footprint &amp; Target Tracker</text>
+<g stroke="#333" stroke-width="2" fill="none"><circle cx="80" cy="275" r="13"/><line x1="80" y1="288" x2="80" y2="325"/><line x1="58" y1="302" x2="102" y2="302"/><line x1="80" y1="325" x2="62" y2="355"/><line x1="80" y1="325" x2="98" y2="355"/></g>
+<text x="80" y="375" text-anchor="middle" font-size="14">Resident</text>
+<g stroke="#333" stroke-width="2" fill="none"><circle cx="920" cy="275" r="13"/><line x1="920" y1="288" x2="920" y2="325"/><line x1="898" y1="302" x2="942" y2="302"/><line x1="920" y1="325" x2="902" y2="355"/><line x1="920" y1="325" x2="938" y2="355"/></g>
+<text x="920" y="375" text-anchor="middle" font-size="14">Sustainability</text>
+<text x="920" y="391" text-anchor="middle" font-size="14">Coach</text>
+<line x1="102" y1="302" x2="269" y2="124" stroke="#333" stroke-width="1.3"/>
+<line x1="102" y1="302" x2="249" y2="216" stroke="#333" stroke-width="1.3"/>
+<line x1="102" y1="302" x2="232" y2="348" stroke="#333" stroke-width="1.3"/>
+<line x1="102" y1="302" x2="263" y2="437" stroke="#333" stroke-width="1.3"/>
+<line x1="102" y1="302" x2="275" y2="531" stroke="#333" stroke-width="1.3"/>
+<line x1="898" y1="302" x2="731" y2="124" stroke="#333" stroke-width="1.3"/>
+<line x1="898" y1="302" x2="751" y2="216" stroke="#333" stroke-width="1.3"/>
+<line x1="898" y1="302" x2="779" y2="332" stroke="#333" stroke-width="1.3"/>
+<line x1="898" y1="302" x2="725" y2="531" stroke="#333" stroke-width="1.3"/>
+<line x1="360" y1="214" x2="440" y2="246" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+<text x="408" y="224" font-size="12" font-style="italic" fill="#1a4d8f">«include»</text>
+<line x1="357" y1="394" x2="443" y2="431" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+<text x="408" y="406" font-size="12" font-style="italic" fill="#1a4d8f">«include»</text>
+<line x1="640" y1="326" x2="560" y2="294" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+<text x="608" y="304" font-size="12" font-style="italic" fill="#1a4d8f">«extend»</text>
+<line x1="500" y1="600" x2="500" y2="485" stroke="#333" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#ah)"/>
+<text x="508" y="542" font-size="12" font-style="italic" fill="#1a4d8f">«extend»</text>
+<ellipse cx="300" cy="95" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="300" y="92" text-anchor="middle" font-size="13">Register</text>
+<text x="300" y="108" text-anchor="middle" font-size="13">Household</text>
+<ellipse cx="300" cy="190" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="300" y="187" text-anchor="middle" font-size="13">Log Monthly</text>
+<text x="300" y="203" text-anchor="middle" font-size="13">Consumption</text>
+<ellipse cx="300" cy="370" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="300" y="367" text-anchor="middle" font-size="13">View Emissions</text>
+<text x="300" y="383" text-anchor="middle" font-size="13">Dashboard</text>
+<ellipse cx="300" cy="465" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="300" y="462" text-anchor="middle" font-size="13">Set Reduction</text>
+<text x="300" y="478" text-anchor="middle" font-size="13">Target</text>
+<ellipse cx="300" cy="560" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="300" y="557" text-anchor="middle" font-size="13">View</text>
+<text x="300" y="573" text-anchor="middle" font-size="13">Recommendations</text>
+<ellipse cx="500" cy="270" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="500" y="267" text-anchor="middle" font-size="13">Calculate CO₂e</text>
+<text x="500" y="283" text-anchor="middle" font-size="13">Emissions</text>
+<ellipse cx="500" cy="455" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="500" y="452" text-anchor="middle" font-size="13">Compare with</text>
+<text x="500" y="468" text-anchor="middle" font-size="13">Target</text>
+<ellipse cx="500" cy="630" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="500" y="627" text-anchor="middle" font-size="13">Award Milestone</text>
+<text x="500" y="643" text-anchor="middle" font-size="13">Badge</text>
+<ellipse cx="700" cy="95" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="700" y="92" text-anchor="middle" font-size="13">View Assigned</text>
+<text x="700" y="108" text-anchor="middle" font-size="13">Households</text>
+<ellipse cx="700" cy="190" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="700" y="187" text-anchor="middle" font-size="13">Review Household</text>
+<text x="700" y="203" text-anchor="middle" font-size="13">Progress</text>
+<ellipse cx="700" cy="350" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="700" y="347" text-anchor="middle" font-size="13">Flag Unusual</text>
+<text x="700" y="363" text-anchor="middle" font-size="13">Reading</text>
+<ellipse cx="700" cy="560" rx="98" ry="30" fill="#eef6ee" stroke="#333" stroke-width="1.5"/>
+<text x="700" y="557" text-anchor="middle" font-size="13">Send</text>
+<text x="700" y="573" text-anchor="middle" font-size="13">Recommendation</text>
+</svg>
