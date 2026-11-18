@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" width="1000" height="760" font-family="Arial, sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1d3a2a">Household Carbon Footprint &amp; Target Tracker — UML Component Diagram</text>
+<text x="500" y="52" text-anchor="middle" font-size="13" fill="#555">Architectural Style: Client-Server · Ishika Jain · PES2UG24AM067</text>
+<line x1="20" y1="215" x2="980" y2="215" stroke="#aab" stroke-dasharray="8,6"/>
+<line x1="20" y1="560" x2="980" y2="560" stroke="#aab" stroke-dasharray="8,6"/>
+<text x="975" y="78" text-anchor="end" font-size="12" letter-spacing="1.5" fill="#778" font-weight="bold">CLIENT TIER</text>
+<text x="975" y="548" text-anchor="end" font-size="12" letter-spacing="1.5" fill="#778" font-weight="bold">SERVER TIER</text>
+<text x="975" y="581" text-anchor="end" font-size="12" letter-spacing="1.5" fill="#778" font-weight="bold">DATA / EXTERNAL</text>
+<line x1="178" y1="282" x2="196" y2="258" stroke="#b03a2e" stroke-width="2"/>
+<line x1="272" y1="158" x2="206" y2="246" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="196" cy="258" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M184.5,249.0 A15,15 0 0,1 208.5,267.0" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="46" y="238" font-size="13" font-weight="bold" fill="#8e2a20">ILogConsumption</text>
+<text x="46" y="253" font-size="11" font-style="italic" fill="#555">HTTPS / REST</text>
+<line x1="462" y1="282" x2="441" y2="261" stroke="#b03a2e" stroke-width="2"/>
+<line x1="338" y1="158" x2="430" y2="250" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="441" cy="261" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M430.2,271.4 A15,15 0 0,1 451.4,250.2" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="457" y="247" font-size="13" font-weight="bold" fill="#8e2a20">IDashboardData</text>
+<text x="457" y="262" font-size="11" font-style="italic" fill="#555">HTTPS / REST</text>
+<line x1="538" y1="282" x2="559" y2="261" stroke="#b03a2e" stroke-width="2"/>
+<line x1="662" y1="158" x2="570" y2="250" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="559" cy="261" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M548.6,250.2 A15,15 0 0,1 569.8,271.4" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="571" y="257" font-size="13" font-weight="bold" fill="#8e2a20"></text>
+<text x="571" y="272" font-size="11" font-style="italic" fill="#555"></text>
+<line x1="822" y1="282" x2="804" y2="258" stroke="#b03a2e" stroke-width="2"/>
+<line x1="728" y1="158" x2="794" y2="246" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="804" cy="258" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M791.5,267.0 A15,15 0 0,1 815.5,249.0" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="674" y="236" font-size="13" font-weight="bold" fill="#8e2a20">ITargetProgress</text>
+<text x="674" y="251" font-size="11" font-style="italic" fill="#555">HTTPS / REST</text>
+<line x1="735" y1="320" x2="705" y2="320" stroke="#b03a2e" stroke-width="2"/>
+<line x1="615" y1="320" x2="690" y2="320" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="705" cy="320" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M705.0,335.0 A15,15 0 0,1 705.0,305.0" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="630" y="350" font-size="13" font-weight="bold" fill="#8e2a20">ITargetProgress</text>
+<text x="630" y="365" font-size="11" font-style="italic" fill="#555">in-process call</text>
+<line x1="150" y1="442" x2="150" y2="412" stroke="#b03a2e" stroke-width="2"/>
+<line x1="150" y1="358" x2="150" y2="397" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="150" cy="412" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M135.0,412.0 A15,15 0 0,1 165.0,412.0" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="168" y="412" font-size="13" font-weight="bold" fill="#8e2a20">ICalculateEmissions</text>
+<text x="168" y="427" font-size="11" font-style="italic" fill="#555">in-process call</text>
+<line x1="150" y1="602" x2="150" y2="572" stroke="#b03a2e" stroke-width="2"/>
+<line x1="150" y1="518" x2="150" y2="557" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="150" cy="572" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M135.0,572.0 A15,15 0 0,1 165.0,572.0" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="168" y="572" font-size="13" font-weight="bold" fill="#8e2a20">IEmissionFactors</text>
+<text x="168" y="587" font-size="11" font-style="italic" fill="#555">CSV import / HTTPS</text>
+<line x1="582" y1="602" x2="557" y2="586" stroke="#b03a2e" stroke-width="2"/>
+<line x1="208" y1="358" x2="544" y2="577" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="557" cy="586" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M548.5,598.2 A15,15 0 0,1 564.9,573.0" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="517" y="534" font-size="13" font-weight="bold" fill="#8e2a20">IHouseholdData</text>
+<text x="517" y="549" font-size="11" font-style="italic" fill="#555">SQL</text>
+<line x1="623" y1="602" x2="611" y2="575" stroke="#b03a2e" stroke-width="2"/>
+<line x1="517" y1="358" x2="605" y2="561" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="611" cy="575" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M597.6,580.5 A15,15 0 0,1 625.1,568.5" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="623" y="571" font-size="13" font-weight="bold" fill="#8e2a20"></text>
+<text x="623" y="586" font-size="11" font-style="italic" fill="#555"></text>
+<line x1="665" y1="602" x2="681" y2="577" stroke="#b03a2e" stroke-width="2"/>
+<line x1="825" y1="358" x2="690" y2="564" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/>
+<circle cx="681" cy="577" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/>
+<path d="M668.9,568.7 A15,15 0 0,1 693.9,585.1" fill="none" stroke="#b03a2e" stroke-width="2"/>
+<text x="697" y="581" font-size="13" font-weight="bold" fill="#8e2a20">IHouseholdData</text>
+<text x="697" y="596" font-size="11" font-style="italic" fill="#555">SQL</text>
+<rect x="185.0" y="82.0" width="230" height="76" rx="4" fill="#edf5ef" stroke="#1d3a2a" stroke-width="2"/>
+<g fill="#edf5ef" stroke="#1d3a2a" stroke-width="1.5"><rect x="383.0" y="91.0" width="24" height="16"/><rect x="377.0" y="94.0" width="12" height="4"/><rect x="377.0" y="101.0" width="12" height="4"/></g>
+<text x="300" y="104.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«component»</text>
+<text x="300" y="124.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Resident App</text>
+<rect x="585.0" y="82.0" width="230" height="76" rx="4" fill="#edf5ef" stroke="#1d3a2a" stroke-width="2"/>
+<g fill="#edf5ef" stroke="#1d3a2a" stroke-width="1.5"><rect x="783.0" y="91.0" width="24" height="16"/><rect x="777.0" y="94.0" width="12" height="4"/><rect x="777.0" y="101.0" width="12" height="4"/></g>
+<text x="700" y="104.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«component»</text>
+<text x="700" y="124.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Coach Portal</text>
+<rect x="35.0" y="282.0" width="230" height="76" rx="4" fill="#edf5ef" stroke="#1d3a2a" stroke-width="2"/>
+<g fill="#edf5ef" stroke="#1d3a2a" stroke-width="1.5"><rect x="233.0" y="291.0" width="24" height="16"/><rect x="227.0" y="294.0" width="12" height="4"/><rect x="227.0" y="301.0" width="12" height="4"/></g>
+<text x="150" y="304.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«component»</text>
+<text x="150" y="324.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Consumption Log</text>
+<text x="150" y="341.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Service</text>
+<rect x="385.0" y="282.0" width="230" height="76" rx="4" fill="#edf5ef" stroke="#1d3a2a" stroke-width="2"/>
+<g fill="#edf5ef" stroke="#1d3a2a" stroke-width="1.5"><rect x="583.0" y="291.0" width="24" height="16"/><rect x="577.0" y="294.0" width="12" height="4"/><rect x="577.0" y="301.0" width="12" height="4"/></g>
+<text x="500" y="304.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«component»</text>
+<text x="500" y="324.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Dashboard</text>
+<text x="500" y="341.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Service</text>
+<rect x="735.0" y="282.0" width="230" height="76" rx="4" fill="#edf5ef" stroke="#1d3a2a" stroke-width="2"/>
+<g fill="#edf5ef" stroke="#1d3a2a" stroke-width="1.5"><rect x="933.0" y="291.0" width="24" height="16"/><rect x="927.0" y="294.0" width="12" height="4"/><rect x="927.0" y="301.0" width="12" height="4"/></g>
+<text x="850" y="304.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«component»</text>
+<text x="850" y="324.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Target Tracker</text>
+<rect x="35.0" y="442.0" width="230" height="76" rx="4" fill="#edf5ef" stroke="#1d3a2a" stroke-width="2"/>
+<g fill="#edf5ef" stroke="#1d3a2a" stroke-width="1.5"><rect x="233.0" y="451.0" width="24" height="16"/><rect x="227.0" y="454.0" width="12" height="4"/><rect x="227.0" y="461.0" width="12" height="4"/></g>
+<text x="150" y="464.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«component»</text>
+<text x="150" y="484.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Emission</text>
+<text x="150" y="501.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Calculator</text>
+<rect x="525.0" y="602.0" width="230" height="76" rx="4" fill="#f5f0e4" stroke="#6b5a2a" stroke-width="2"/>
+<g fill="#f5f0e4" stroke="#6b5a2a" stroke-width="1.5"><rect x="723.0" y="611.0" width="24" height="16"/><rect x="717.0" y="614.0" width="12" height="4"/><rect x="717.0" y="621.0" width="12" height="4"/></g>
+<text x="640" y="624.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«database»</text>
+<text x="640" y="644.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Household</text>
+<text x="640" y="661.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Database</text>
+<rect x="35.0" y="602.0" width="230" height="76" rx="4" fill="#f5f0e4" stroke="#6b5a2a" stroke-width="2"/>
+<g fill="#f5f0e4" stroke="#6b5a2a" stroke-width="1.5"><rect x="233.0" y="611.0" width="24" height="16"/><rect x="227.0" y="614.0" width="12" height="4"/><rect x="227.0" y="621.0" width="12" height="4"/></g>
+<text x="150" y="624.0" text-anchor="middle" font-size="12" font-style="italic" fill="#444">«external system»</text>
+<text x="150" y="644.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Emission Factor</text>
+<text x="150" y="661.0" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Dataset (EPA)</text>
+<g font-size="12" fill="#333"><rect x="20" y="712" width="960" height="40" fill="#f8f9fb" stroke="#ccd"/><line x1="40" y1="732" x2="62" y2="732" stroke="#b03a2e" stroke-width="2"/><circle cx="70" cy="732" r="8" fill="white" stroke="#b03a2e" stroke-width="2"/><text x="85" y="736">Provided interface (ball)</text><path d="M276,721 A11,11 0 0,0 276,743" fill="none" stroke="#b03a2e" stroke-width="2"/><text x="290" y="736">Required interface (socket)</text><line x1="480" y1="732" x2="530" y2="732" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4"/><text x="540" y="736">Dependency on the interface</text><text x="740" y="736">Dashed horizontal lines separate tiers</text></g>
+</svg>
